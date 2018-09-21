@@ -44,6 +44,7 @@ body {
     letter-spacing: 1px;
     line-height: 48px;
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 400;
     color: #303030;
 }
@@ -71,7 +72,7 @@ body {
 
 /* ==== END NAVBAR ==== */
 /* ==== BODY ==== */
-.article {
+.hero-img {
     margin: 20px auto;
     width: 30vh;
     height: 30vh;
@@ -80,4 +81,45 @@ body {
     border-radius: 50%;
     -webkit-clip-path: circle(46.8% at 50% 50%);
     clip-path: circle(46.8% at 50% 50%);
+}
+
+.text {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    color: #303030;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text p {
+    padding: 10px 0;
+}
+
+.text h1 {
+    font-weight: 500;
+}
+
+.text h1,
+.text h2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.text a,
+.text p {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.text a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: #303030;
 }

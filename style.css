@@ -8,7 +8,6 @@ body {
 
 .nav-bar {
     width: 100%;
-    background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
 }
@@ -17,7 +16,7 @@ body {
 .block-text {
     display: flex;
     flex-wrap: wrap;
-    width: calc(50% - 30px);
+    width: calc(50% - 40px);
 }
 
 .portfolio,
@@ -28,7 +27,7 @@ body {
 }
 
 .nav {
-    margin: 20px 0 20px 40vw;
+    margin: 20px 10px 20px 40vw;
     width: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -37,15 +36,15 @@ body {
 }
 
 .inner-nav a {
-    padding: 10px 30px;
+    padding: 10px 50px;
     text-align: center;
-    font-size: 24px;
+    font-size: 14px;
     text-decoration: none;
     width: calc(50% - 130px);
-    letter-spacing: 1px;
+    letter-spacing: 7px;
     line-height: 48px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #303030;
 }
 
